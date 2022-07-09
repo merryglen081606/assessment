@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(255, 255, 255);
+
+}
+li{
+    list-style: none;
+
+}
+a
+{
+    color: rgb(181, 93, 25);
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.name{
+    font-size: 2rem;
+}
+.nav-link{
+    transition: 0.8s ease;
+}
+
+.nav-link:hover{
+    color: rgb(14, 14, 14);
+}
+
+
+#banner{
+	background:  linear-gradient(rgba(0,0,0,0.5),#c8c4c4),url(image/suppermarkets.jpg);
+	height: 50vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.banner-text{
+	text-align: center;
+	padding-top: 100px;
+
+}
+.banner-text h1{
+	font-size: 70px;
+    color: rgb(255, 153, 52);
+
+}
+}
+.banner-text p{
+	font-size: 50px;
+	font-style: italic;
+    color: rgb(16, 16, 16);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+	
+}
+.banner-image img{
+    padding-top: 40px;
+    position: center;
+    height: 20vh;
+   width: 20vh;
+   initial-value: center;
+}
+
+.banner-image{
+    width: 200vh;
+    height: 100px;
+    display: flex;
+ margin-top: 50px;
+   text-align: center;
+       justify-content: space-between;
+    
+}
+.content2{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-right: 0px;
+    text-align: center;
+}
+.content1{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-right: 0px;
+    text-align: center;
+  
+}
+.content3{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+
+}
+
+
